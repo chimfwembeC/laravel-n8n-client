@@ -44,6 +44,12 @@
         "test:tinker": "testbench tinker",
         "test:publish": "testbench vendor:publish --provider='JPCaparas\\N8N\\N8NServiceProvider'"
     },
+    "repositories": [
+  {
+    "type": "vcs",
+    "url": "https://github.com/chimfwembeC/laravel-n8n-client"
+  }
+],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
