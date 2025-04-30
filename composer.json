@@ -1,12 +1,12 @@
 {
-    "name": "chimfwembeC/laravel-n8n-client",
+    "name": "chimfwembec/laravel-n8n-client",
     "description": "A Laravel library that interfaces with the self-hosted n8n.io REST API",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "JP Caparas",
-            "email": "jp@jpcaparas.com"
+            "name": "ChimfwembeC",
+            "email": "kangwac3@gmail.com"
         }
     ],
     "require": {
@@ -20,18 +20,18 @@
     },
     "autoload": {
         "psr-4": {
-            "JPCaparas\\N8N\\": "src/"
+            "ChimfwembeC\\N8N\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "JPCaparas\\N8N\\Tests\\": "tests/"
+            "ChimfwembeC\\N8N\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "JPCaparas\\N8N\\N8NServiceProvider"
+                "ChimfwembeC\\N8N\\N8NServiceProvider"
             ]
         }
     },
@@ -42,12 +42,12 @@
         "format": "pint",
         "test": "phpunit",
         "test:tinker": "testbench tinker",
-        "test:publish": "testbench vendor:publish --provider='JPCaparas\\N8N\\N8NServiceProvider'"
+        "test:publish": "testbench vendor:publish --provider='ChimfwembeC\\N8N\\N8NServiceProvider'"
     },
     "repositories": [
   {
     "type": "vcs",
-    "url": "https://github.com/chimfwembeC/laravel-n8n-client"
+    "url": "https://github.com/chimfwembec/laravel-n8n-client"
   }
 ],
     "minimum-stability": "dev",
